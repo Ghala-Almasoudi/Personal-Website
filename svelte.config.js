@@ -6,11 +6,12 @@ const config = {
 
 	kit: {
 		adapter: adapter({
-			pages: 'docs',
-			assets: 'docs',
-			fallback: null,
-			strict: false
-		}),
+  pages: 'docs',
+  assets: 'docs',
+  fallback: 'index.html', // ✅ لحل مشكلة 404 في GitHub Pages
+  strict: false
+}),
+
 		paths: {
 			base: process.env.NODE_ENV === 'production' ? '/Personal-Website' : ''
 		},
