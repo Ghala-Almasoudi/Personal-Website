@@ -12,8 +12,9 @@ const config = {
       strict: false
     }),
     paths: {
-      base: '/Personal-Website'
-    },
+  base: process.env.NODE_ENV === 'production' ? '/Personal-Website' : ''
+},
+
     prerender: {
       handleHttpError: 'warn'
     }
