@@ -4,7 +4,7 @@
 
   const links = [
     { text: "Home", href: "./" },
-    { text: "Resume", href: "./resume" },
+    // { text: "Resume", href: "./resume" },
     { text: "Contact", href: "./contact" },
   ];
 </script>
@@ -48,7 +48,7 @@ class="sticky px-6 py-6 top-0 z-[10] text-3xl font-bold hover:font-black flex ju
             <ul>
               <li><a href="./"><i class="fas fa-home"></i>Home</a></li>
               <li>
-                <a href="./resume"><i class="fas fa-file-alt"></i>Resume</a>
+                <!-- <a href="./resume"><i class="fas fa-file-alt"></i>Resume</a> -->
               </li>
               <li>
                 <a href="./contact"><i class="fas fa-envelope"></i>Contact</a>
